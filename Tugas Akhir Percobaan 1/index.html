@@ -1,11 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTOFOLIO</title>
+    <title>Portofolio</title> <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+        }
+        .main-header .subtitle {
+            margin-top: 6px;
+            font-weight: 300;
+            opacity: 0.9;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-    
+    <header class="main-header">
+        <div class="nav-wrap">
+            <div class="brand">
+                <h1>NUZAIM BIRRI</h1>
+            </div>
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="#beranda" class="nav-link">Beranda</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#pendidikan" class="nav-link">Pendidikan</a></li>
+                    <li><a href="#organisasi" class="nav-link">Pengalaman Organisasi</a></li>
+                    <li><a href="#skill" class="nav-link">Skill</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Beranda -->
+        <section id="beranda" class="hero">
+            <div class="hero-inner">
+                <div class="hero-left">
+                    <p class="intro">Hello World, I'm</p>
+                    <h2 class="hero-name">NUZAIM BIRRI</h2>
+                    <p class="hero-role"> Informatics <span class="accent">Student</span></p>
+                    <p class="hero-sub">Welcome to my personal portofolio</p>
+                </div>
+
+                <div class="hero-right">
+                    <div class="profile-blank">
+                        <img src="foto/zem.jpg" alt="foto-kosong" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <div class="about-card">
+                <div class="about-left">
+                    <div class="about-photo">
+                        <img src="foto/zem.jpg" alt="Foto Nuzaim Birri">
+                    </div>
+                </div>
+
+                <div class="about-center">
+                    <h2 class="about-title">About Me</h2>
+                    <div class="about-content">
+                        <p>Halo, saya Nuzaim Birri, seorang Mahasiswa Teknik Informatika yang memiliki passion dalam menciptakan solusi digital yang interaktif, responsif, dan efisien. Saya selalu bersemangat untuk mempelajari hal baru di dunia pengembangan web.</p>
+                        <p>Saya membangun website yang fungsional, menarik, dan mudah digunakan. Saya harap dengan adanya ide saya dapat membantu menyampaikan pesan dan identitas Anda secara kreatif.</p>
+                    </div>
+                </div>
+
+                <div class="about-right">
+                    <div class="gpa-wrap">
+                        <div class="gpa-ring" aria-hidden="true">
+                            <div class="gpa-inner">3.90</div>
+                        </div>
+                        <div class="gpa-label">
+                            <div class="gpa-degree">Teknik Informatika</div>
+                            <div class="gpa-school">Universitas Lampung</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pendidikan -->
+        <section id="pendidikan">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li>S1 - Universitas Lampung, Teknik Informatika, 2023 - On going</li>
+                <li>IPA - SMAN 1 Pesisir Tengah 2020-2023</li>
+                <li>SMPN 2 Krui 2017-2020 </li>
+                <li>SDN Menyancang 2011-2017</li>
+            </ul>
+        </section>
+
+        <!-- Pengalaman Organisasi -->
+        <section id="organisasi">
+            <h2>Pengalaman Organisasi</h2>
+            <ul>
+                <li> Aggota Divisi Sosial -  HIMATRO 2024-2025</li>
+                <li> Ketua Pelaksana Bantuan Pendidikan 2024 </li>
+                <li> Aggota Divisi Training -  Gradien 2024-2025</li>
+                <li> Wakil Ketua Osis - SMAN 1 Pesisi Tengah 2022 </li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section id="skill">
+            <h2>Skills</h2>
+
+            <div class="skills-tabs" role="tablist" aria-label="Skill categories">
+                <button class="tab active" aria-selected="true">Tech Stack</button>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML logo">
+                    <div class="skill-info">
+                        <div class="skill-title">HTML</div>
+                        <div class="skill-sub">Advanced</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS logo">
+                    <div class="skill-info">
+                        <div class="skill-title">CSS</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP logo">
+                    <div class="skill-info">
+                        <div class="skill-title">PHP</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo">
+                    <div class="skill-info">
+                        <div class="skill-title">Javascript</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-icon" src="foto/Laravel.png" alt="Laravel logo">
+                    <div class="skill-info">
+                        <div class="skill-title">Laravel</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-icon" src="foto/Tailwind.png" alt="Tailwind logo">
+                    <div class="skill-info">
+                        <div class="skill-title">Tailwind</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-icon" src="foto/Bootsrap.png" alt="Bootstrap logo">
+                    <div class="skill-info">
+                        <div class="skill-title">Bootstrap</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React logo">
+                    <div class="skill-info">
+                        <div class="skill-title">ReactJS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+        <!-- Kontak -->
+        <section id="kontak" class="contact-section">
+            <div class="contact-wrap">
+                <div class="contact-info">
+                    <h3>Hubungi Saya</h3>
+                    <p><strong>Email:</strong> <a href="mailto:nuzaimbirri99@gmail.com">nuzaimbirri99@gmail.com</a></p>
+                    <p><strong>Telepon:</strong> <a href="tel:+6281368410208">+62 81271699445</a></p>
+                    <p><strong>Instagram:</strong> <a href="">@nuzaimbirri_</a></p>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Kritik &amp; Saran</h3>
+                    <form action="#" method="post">
+                        <label for="c-nama">Nama</label>
+                        <input id="c-nama" name="nama" type="text" placeholder="Nama lengkap">
+
+                        <label for="c-email">Email</label>
+                        <input id="c-email" name="email" type="email" placeholder="email@domain.com">
+
+                        <label for="c-pesan">Pesan</label>
+                        <textarea id="c-pesan" name="pesan" rows="4" placeholder="Tulis pesan..."></textarea>
+
+                        <div class="contact-actions">
+                            <button type="submit" class="btn primary-btn">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    <footer class="main-footer">
+        <p>&copy; Nuzaim Birri - 2315061079</p>
+    </footer>
+
 </body>
 </html>
