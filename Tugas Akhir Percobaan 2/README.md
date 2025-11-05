@@ -44,7 +44,7 @@ Karena ini adalah website statis, tidak diperlukan proses instalasi yang komplek
 ## Catatan Git / Riwayat
 
 
-![Git Log Graph](screenshoot/'Screenshot-git-log.png')
+![Git Log Graph](screenshoot/Screenshot-git-log.png)
 
 
 ---
