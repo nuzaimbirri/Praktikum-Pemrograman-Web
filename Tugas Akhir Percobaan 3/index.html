@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX - Menuju Bintang, Merubah Masa Depan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+
+    <header class="sticky top-0 z-50 bg-gray-900/90 backdrop-blur-sm shadow-lg">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="#" class="text-2xl font-bold tracking-wider text-white">
+                    <i class="fas fa-rocket text-blue-500 mr-2"></i>SpaceX
+                </a>
+
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#hero" class="text-gray-300 hover:text-blue-500 transition duration-300 font-medium">Home</a>
+                    <a href="#features" class="text-gray-300 hover:text-blue-500 transition duration-300 font-medium">Fitur</a>
+                    <a href="#about" class="text-gray-300 hover:text-blue-500 transition duration-300 font-medium">Tentang</a>
+                    <a href="#contact" class="text-gray-300 hover:text-blue-500 transition duration-300 font-medium">Kontak</a>
+                </nav>
+
+                <button id="menu-button" class="md:hidden text-gray-300 hover:text-blue-500 focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 border-t border-gray-700">
+            <a href="#hero" class="block py-3 px-4 text-sm text-gray-300 hover:bg-gray-700">Home</a>
+            <a href="#features" class="block py-3 px-4 text-sm text-gray-300 hover:bg-gray-700">Fitur</a>
+            <a href="#about" class="block py-3 px-4 text-sm text-gray-300 hover:bg-gray-700">Tentang</a>
+            <a href="#contact" class="block py-3 px-4 text-sm text-gray-300 hover:bg-gray-700">Kontak</a>
+        </div>
+    </header>
+
+    <section id="hero" class="h-screen bg-[url('backround.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center relative overflow-hidden">
+        
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between z-10 py-10">
+            
+            <div class="lg:w-1/2 text-left p-4 lg:p-0 mb-6 lg:mb-0">
+                <h1 class="text-5xl sm:text-6xl font-extrabold leading-tight text-white mb-4">
+                    MAKING LIFE <br> <span class="text-blue-500">MULTIPLANETARY</span>
+                </h1>
+                <p class="text-md text-gray-400 max-w-md mb-6">
+                    SpaceX didirikan atas keyakinan bahwa masa depan di mana umat manusia menjelajahi bintang jauh lebih menarik daripada masa depan di mana kita tidak.
+                </p>
+                <a href="#explore" class="inline-flex items-center text-white border border-white py-2 px-6 text-sm uppercase tracking-wider font-semibold transition duration-300 hover:border-blue-500 hover:text-blue-500">
+                    Explore <i class="fas fa-arrow-right ml-3 text-xs"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-24 bg-gray-900">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-white mb-16">Teknologi Inti Kami</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-gray-800 p-8 rounded-xl shadow-xl border border-gray-700 transition duration-500 hover:bg-gray-700 hover:border-blue-500 transform hover:scale-[1.02] text-center">
+                    <i class="fas fa-redo-alt text-5xl text-blue-500 mb-4"></i>
+                    <h3 class="text-2xl font-semibold text-white mb-3">Roket Dapat Digunakan Ulang</h3>
+                    <p class="text-gray-400">Memimpin industri dengan pendaratan roket yang sukses. Teknologi ini mengurangi biaya peluncuran secara drastis.</p>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl shadow-xl border border-gray-700 transition duration-500 hover:bg-gray-700 hover:border-blue-500 transform hover:scale-[1.02] text-center">
+                    <i class="fas fa-satellite-dish text-5xl text-blue-500 mb-4"></i>
+                    <h3 class="text-2xl font-semibold text-white mb-3">Jaringan Internet Global</h3>
+                    <p class="text-gray-400">Menyediakan konektivitas internet berkecepatan tinggi ke seluruh penjuru bumi melalui konstelasi satelit.</p>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl shadow-xl border border-gray-700 transition duration-500 hover:bg-gray-700 hover:border-blue-500 transform hover:scale-[1.02] text-center">
+                    <i class="fas fa-globe-asia text-5xl text-blue-500 mb-4"></i>
+                    <h3 class="text-2xl font-semibold text-white mb-3">Eksplorasi Antar Planet</h3>
+                    <p class="text-gray-400">Membangun Starship, kapal luar angkasa raksasa yang dirancang untuk membawa manusia ke Mars dan lebih jauh.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-gray-800">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+            
+            <div class="md:w-1/2">
+                <span class="text-blue-400 uppercase tracking-widest font-semibold mb-3 block">Tentang Kami</span>
+                <h2 class="text-4xl font-bold text-white mb-6">Mendorong Batasan yang Tidak Mungkin</h2>
+                <p class="text-gray-400 text-lg mb-4 leading-relaxed">
+                    Didirikan pada tahun 2002 oleh Elon Musk, SpaceX memiliki tujuan jangka panjang untuk mengurangi biaya transportasi luar angkasa dan memungkinkan kolonisasi Mars. Kami adalah perusahaan inovatif yang bersemangat untuk mendorong kemajuan dalam penerbangan luar angkasa.
+                </p>
+                <p class="text-gray-400 text-lg leading-relaxed">
+                    Setiap peluncuran, setiap pendaratan, dan setiap inovasi membawa kita selangkah lebih dekat untuk menjadikan umat manusia sebagai spesies multi-planet.
+                </p>
+                <a href="#" class="inline-block mt-8 text-blue-400 hover:text-blue-300 font-semibold border-b border-blue-400 hover:border-blue-300 pb-1 transition duration-300">
+                    Pelajari Sejarah Kami <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                </a>
+            </div>
+            
+            <div class="md:w-1/2 mt-8 md:mt-0">
+                <img src="roket.jpg" alt="SpaceX Rocket" class="w-full h-full object-cover rounded-xl shadow-2xl border-2 border-blue-500/50" />
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-gray-900">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl">
+            <h2 class="text-4xl font-bold text-center text-white mb-4">Hubungi Kami</h2>
+            <p class="text-center text-gray-400 mb-10">Kami mencari talenta terbaik dan mitra strategis. Kirimkan pesan Anda.</p>
+
+            <form class="bg-gray-800 p-8 rounded-xl shadow-2xl border border-gray-700">
+                <div class="mb-6">
+                    <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-blue-500 focus:border-blue-500 text-white placeholder-gray-500 transition duration-300">
+                </div>
+                <div class="mb-6">
+                    <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                    <input type="email" id="email" name="email" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-blue-500 focus:border-blue-500 text-white placeholder-gray-500 transition duration-300">
+                </div>
+                <div class="mb-8">
+                    <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Pesan</label>
+                    <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-blue-500 focus:border-blue-500 text-white placeholder-gray-500 transition duration-300"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg text-lg uppercase tracking-wider transition duration-300 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 transform hover:scale-[1.01]">
+                    Kirim Pesan
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-950 py-10 border-t border-gray-800">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="#" class="text-gray-400 hover:text-blue-500 transition duration-300 text-2xl" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-gray-400 hover:text-blue-500 transition duration-300 text-2xl" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="text-gray-400 hover:text-blue-500 transition duration-300 text-2xl" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-gray-400 hover:text-blue-500 transition duration-300 text-2xl" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <p class="text-gray-500 text-sm">
+                &copy; <span id="current-year"></span> SpaceX. Nuzaim Birri
+            </p>
+            <p class="text-blue-500 text-xs mt-1 font-semibold">
+                "Mendukung Kehidupan Multi-Planet"
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        const mobileLinks = document.querySelectorAll('#mobile-menu a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
